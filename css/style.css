@@ -3,7 +3,14 @@
   width: auto;
   height: auto;
   font-size: x-large;
+  border: 1px solid #000000;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  padding: 10px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+  font-size: x-large;
 }
 
 .contenedor{
@@ -31,10 +38,25 @@
   align-content: center;
 }
 .logo-reg{
+  position: sticky;
+  width: 400px;
+  height: 400px;
+  align-content: center;
+  margin-top: 30px;
+  top: 0px;
+}
+
+.logo-div{
   width: auto;
   height: auto;
   align-content: center;
-  margin-top: 30px;
+  margin: 15px;
+  padding: 10px;
+
+
+}
+img{
+  border-radius: 15px;
 }
 
 .titulo{
@@ -53,7 +75,7 @@ align-items: center;
 body{
   margin: 0;
   padding: 0;
-  background-image:url("../img/fondo-back.jpg");
+  background-image:url("../img/pexels-trace-hudson-5839367.jpg");
 }
 #div-pantalla{
   display: flex;
